@@ -1,11 +1,21 @@
 .flex-container {
+  display: flex;
+
   background-color: rgb(190, 190, 231);
 }
 
 /* Flex Container 1 */
-
+.flex-container-1{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
 /* Flex Container 2 */
-
+.flex-container-2{
+  flex-direction:row-reverse;
+  flex-wrap: wrap;
+  justify-content: right;
+}
 /* Flex Container 3 */
 
 /* use height: 400px; on the container */
