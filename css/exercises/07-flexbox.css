@@ -12,8 +12,8 @@
 }
 /* Flex Container 2 */
 .flex-container-2{
-  flex-direction:row-reverse;
-  flex-wrap: wrap;
+  flex-flow:row-reverse wrap;
+
   justify-content: right;
 }
 /* Flex Container 3 */
