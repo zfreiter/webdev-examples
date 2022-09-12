@@ -9,9 +9,11 @@ const fetchData = (url) => {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      data.forEach((element) => {
-        console.log(data);
-        console.log(element.name);
+      console.log(data);
+      data.forEach((book) => {
+        console.log(book.name, book.authors);
       });
     });
 };
+
+fetchData(url);
